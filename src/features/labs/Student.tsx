@@ -1,11 +1,10 @@
 import * as React from 'react'
+import { Student } from '../../models/student'
 
-export interface StudentProps {
-  name: string
-  age: number
-  gender: boolean
+export interface StudentCardProps {
+  student: Student
 }
 
-export function Student({ name = 'Defaut' }: StudentProps) {
-  return <div>Stundent: {name} </div>
+export function StudentCard( student : StudentCardProps) {
+  return <div> Stundent:  </div>
 }
