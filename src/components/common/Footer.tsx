@@ -1,11 +1,12 @@
-import React from 'react'
+import * as React from 'react';
 
-type Props = {}
-
-const Footer = (props: Props) => {
-  return (
-    <div>Footer</div>
-  )
+export interface IFooterProps {
 }
 
-export default Footer
+export function Footer (props: IFooterProps) {
+  return (
+    <div>
+      Footer
+    </div>
+  );
+}

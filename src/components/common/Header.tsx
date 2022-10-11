@@ -1,11 +1,12 @@
-import React from 'react'
+import * as React from 'react';
 
-type Props = {}
-
-const Header = (props: Props) => {
-  return (
-    <div>Header</div>
-  )
+export interface IHeaderProps {
 }
 
-export default Header
+export function Header (props: IHeaderProps) {
+  return (
+    <div>
+      Header
+    </div>
+  );
+}
